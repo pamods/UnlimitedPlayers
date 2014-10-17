@@ -1,0 +1,22 @@
+{
+    "context": "client",
+    "identifier": "info.nanodesu.unlimitedplayers",
+    "display_name": "Unlimited Players",
+    "description": "Remove client side limitations of player numbers. You still need a modified server to use them.",
+    "author": "Cola_Colin",
+    "version": "1.0.0",
+    "signature": "not yet implemented",
+    "priority": 10,
+    "enabled": true,
+    "id": "unlimitedPlayers",
+    "category": [
+        "UI"
+    ],
+    "scenes": {
+        "new_game": [
+            "coui://ui/mods/unlimitedplayers/unlock.js"
+        ]
+    },
+    "date": "2014/04/03",
+    "build": "73939"
+}
